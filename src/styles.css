@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --blue: #00A5E3;
+    --green: #8DD7BF;
+    --pink: #FF96C5;
+    --red: #FF5768;
+    --orange: #FFBF65;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
