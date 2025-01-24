@@ -55,7 +55,7 @@ p{
     margin: 8px;
     font-size: 12px;
 }
-.header,.subheader,.food{
+.header,.subheader,.item{
     border: solid 4px var(--blue);
     background-color: var(--green);
     text-align: center;
@@ -69,7 +69,7 @@ p{
     height: 70px;
     width: 140px;
 }
-.food{
-    height: 200px;
+.item{
+    height: auto;
     width: 200px;
 }

@@ -52,7 +52,7 @@ export { createSubHeader };
 function createItem(title, paragraph){
     const content = document.getElementById('content');
     const itemDiv = document.createElement('div');
-    itemDiv.className = 'subheader';
+    itemDiv.className = 'item';
     itemDiv.textContent = title;
     content.appendChild(itemDiv);
     const paragraphText = document.createElement('p');
