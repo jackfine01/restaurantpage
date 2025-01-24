@@ -1,11 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
 }
 
-body{
+body,html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    align-items: center;
 }
 
 :root{
@@ -16,7 +19,57 @@ body{
     --orange: #FFBF65;
 }
 
-.container{
+#content{
     display: flex;
     flex-direction: column;
+    background-color: var(--red);
+    border: solid 4px var(--orange);
+    border-radius: 25px;
+    margin: 10px;
+    margin-top: 0px;;
+    padding: 10px;
+    gap: 20px;
+    width: 400px;
+    align-items: center;
+}
+header{
+    height: 15%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: var(--pink);
+    border: solid 4px var(--orange);
+    border-bottom: 0px;
+}
+p{
+    padding: 8px;
+    margin: 8px;
+    font-size: 12px;
+}
+.header,.subheader,.food{
+    border: solid 4px var(--blue);
+    background-color: var(--green);
+    text-align: center;
+    border-radius: 25px;
+}
+.header{
+    height: 80px;
+    width: 160px;
+}
+.subheader{
+    height: 70px;
+    width: 140px;
+}
+.food{
+    height: 200px;
+    width: 200px;
 }
