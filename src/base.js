@@ -29,4 +29,4 @@ function clearBoard(){
 
     console.log('board cleared');
 };
-export {clearBoard}
+export { clearBoard };

@@ -1,5 +1,5 @@
 console.log("I am live")
 import "./styles.css";
-import "./base.js"
+import { clearBoard } from "./base.js";
 
 clearBoard();
