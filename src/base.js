@@ -48,3 +48,15 @@ function createSubHeader(title){
     content.appendChild(subheaderDiv);
 };
 export { createSubHeader };
+
+function createItem(title, paragraph){
+    const content = document.getElementById('content');
+    const itemDiv = document.createElement('div');
+    itemDiv.className = 'subheader';
+    itemDiv.textContent = title;
+    content.appendChild(itemDiv);
+    const paragraphText = document.createElement('p');
+    paragraphText.textContent = paragraph;
+    itemDiv.appendChild(paragraphText);
+};
+export { createItem };
