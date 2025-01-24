@@ -39,3 +39,12 @@ function createHeader(title){
     content.appendChild(headerDiv);
 };
 export { createHeader };
+
+function createSubHeader(title){
+    const content = document.getElementById('content');
+    const subheaderDiv = document.createElement('div');
+    subheaderDiv.className = 'subheader';
+    subheaderDiv.textContent = title;
+    content.appendChild(subheaderDiv);
+};
+export { createSubHeader };
