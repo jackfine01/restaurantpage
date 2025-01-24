@@ -3,8 +3,10 @@ import "./styles.css";
 // import { clearBoard, createHeader, createSubHeader, createItem } from "./base.js";
 import { createHomePage } from "./home.js";
 import { createContactPage } from "./contact.js";
+import { createMenuPage } from "./menu.js";
 // createHeader('SampleTitle');
 // createSubHeader('SubSampleTitle')
 // createItem('Item', 'She lorem till I ipsum')
 createContactPage();
 createHomePage();
+createMenuPage();
