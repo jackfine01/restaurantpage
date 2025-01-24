@@ -7,6 +7,28 @@ import { createMenuPage } from "./menu.js";
 // createHeader('SampleTitle');
 // createSubHeader('SubSampleTitle')
 // createItem('Item', 'She lorem till I ipsum')
-createContactPage();
+// createContactPage();
 createHomePage();
-createMenuPage();
+// createMenuPage();
+
+let contact = document.getElementById('contact')
+contact.addEventListener('click', function(){
+    createContactPage();
+    console.log('creating contact page');
+}
+);
+
+let menu = document.getElementById('menu')
+menu.addEventListener('click', function(){
+    createMenuPage();
+    console.log('creating menu page');
+}
+);
+
+let home = document.getElementById('home')
+home.addEventListener('click', function(){
+    createHomePage();
+    console.log('creating home page');
+}
+);
+

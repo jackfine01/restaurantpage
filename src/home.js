@@ -11,3 +11,4 @@ function createHomePage(){
         'Sample Resturaunt is the best resturaunt this side of the Lorem Ipsum!  Come visit us at 12345 Rd')
 };
 export { createHomePage };
+
