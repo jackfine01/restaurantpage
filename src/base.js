@@ -9,7 +9,7 @@ function clearBoard(){
         }
     )
 
-    const items = document.querySelectorAll('.food')
+    const items = document.querySelectorAll('.item')
     items.forEach(item=>{
         item.remove();
         }

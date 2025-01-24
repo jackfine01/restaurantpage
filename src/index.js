@@ -7,3 +7,4 @@ import { createContactPage } from "./contact.js";
 // createSubHeader('SubSampleTitle')
 // createItem('Item', 'She lorem till I ipsum')
 createContactPage();
+createHomePage();
