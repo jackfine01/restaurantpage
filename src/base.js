@@ -30,3 +30,12 @@ function clearBoard(){
     console.log('board cleared');
 };
 export { clearBoard };
+
+function createHeader(title){
+    const content = document.getElementById('content');
+    const headerDiv = document.createElement('div');
+    headerDiv.className = 'header';
+    headerDiv.textContent = title;
+    content.appendChild(headerDiv);
+};
+export { createHeader };
